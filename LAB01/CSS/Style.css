@@ -1,0 +1,194 @@
+﻿body {
+}
+    body .top-bar{
+        background-color: azure;
+    }
+        body .top-bar .top-bar-main{
+            width:70%;
+            margin:auto;
+            display: flex;
+            flex-direction:row;
+        }
+            body .top-bar .top-bar-main .contact{
+                width:60%;
+            }
+            body .top-bar .top-bar-main .login-search {
+                width: 40%;
+            }
+    body .main-container{
+        width:70%;
+        margin:auto
+
+    }
+        body .main-container .banner-container{
+            display:flex;
+            flex-flow: row nowrap;
+        }
+            body .main-container .banner-container img {
+                width: 35%;
+        }
+                body .main-container .banner-container img#logo {
+                    width: 30%;
+                }
+        body .main-container .navigation-container {
+            
+        }
+            body .main-container .navigation-container ul {
+                list-style-type: none;
+                margin:0;
+                padding:0;
+                display:flex;
+                flex-flow: row nowrap;
+
+            }
+            body .main-container .navigation-container ul li {
+                padding: 10px 10px;
+                border-left: solid 2px #808080; 
+            }
+                body .main-container .navigation-container ul li img#im{
+                    width:20px;
+                    height:20px;
+                }
+        body .main-container .body-container {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            body .main-container .body-container .content-container {
+                display: flex;
+                flex-flow: row nowrap;
+                width: 70%;
+            }
+                body .main-container .body-container .content-container .main-content {
+                    width: 70%;
+                }
+                    body .main-container .body-container .content-container .main-content .him {
+
+                    }
+                        body .main-container .body-container .content-container .main-content .him button{
+                            padding:0;
+                            width:25%;
+                            border-left: solid 5px #b43333;
+                        }
+                            body .main-container .body-container .content-container .main-content .him button p{
+                                color:#b43333;
+                                font-size:16px;
+                                margin:5px 10px;
+                            }
+                    body .main-container .body-container .content-container .main-content .title-container {
+                        text-align: left;
+                        font-size: 32px;
+                        color: #b43333;
+                        padding-top: 2px;
+                    }
+                    body .main-container .body-container .content-container .main-content .decription-container {
+                        text-align: left;
+                        font-size: 20px;
+                    }
+                    body .main-container .body-container .content-container .main-content .relation-container {
+                        text-align: left;
+                        font-size: 20px;
+
+                    }
+
+                    
+
+                body .main-container .body-container .content-container .related-content {
+                    width: 30%;
+                }
+                    body .main-container .body-container .content-container .related-content .header-related-content {
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row-reverse;
+                    }
+                        body .main-container .body-container .content-container .related-content .header-related-content .h1 {
+                            
+                        }
+                            body .main-container .body-container .content-container .related-content .header-related-content .h1 button{
+                                padding: 1;
+                                display:flex;
+                                flex-flow:row nowrap;
+                                height:90%;
+
+                            }
+                                body .main-container .body-container .content-container .related-content .header-related-content .h1 button img{
+                                    margin-top:10px;
+                                }
+                                body .main-container .body-container .content-container .related-content .header-related-content .h1 button p{
+                                    margin-bottom: 10px;
+                                }
+
+                    body .main-container .body-container .content-container .related-content .middle {
+
+                    }
+                        body .main-container .body-container .content-container .related-content .middle ul {
+                            list-style-type: none;
+                            margin-left: 2px;
+                            margin-right: 4px;
+                            padding: 0;
+                        }
+                            body .main-container .body-container .content-container .related-content .middle ul li{
+                                font-size:20px;
+                            }
+                    body .main-container .body-container .content-container .related-content .bottom-content {
+                        text-align: justify;
+                        padding: 2px;
+                    }
+                        body .main-container .body-container .content-container .related-content .bottom-content .h2 {
+
+                        }
+                            body .main-container .body-container .content-container .related-content .bottom-content .h2 img {
+                                width: 125px;
+                                height: 150px;
+                                float: right;
+                                display: flex;
+                                flex-flow: row nowrap;
+                            }
+
+                            body .main-container .body-container .content-container .related-content .bottom-content .h2 .h3 {
+
+                            }
+                                body .main-container .body-container .content-container .related-content .bottom-content .h2 .h3 button {
+                                    text-align: center;
+                                    border-top: solid 2px red;
+                                    border-right: none;
+                                    border-left: none;
+                                    border-bottom: none;
+                                    margin: 0px;
+                                    padding: 0px;
+                                    color: #b43333;
+                                    font-size: 15px;
+                                }
+                            body .main-container .body-container .content-container .related-content .bottom-content .h2 .t4 {
+                                margin: 0px;
+                                padding: 0px;
+                            }
+                        body .main-container .body-container .content-container .related-content .bottom-content .h5 {
+
+                        }
+                            
+                       
+
+            body .main-container .body-container .ads-container {
+                width: 30%;
+                display: flex;
+                flex-flow: column;
+            }
+                body .main-container .body-container .ads-container .group p{
+                    text-align:center;
+                }
+                body .main-container .body-container .ads-container .quangcao img#qc1{
+                    width:100%;
+                    margin-bottom:4px;
+
+                }
+                body .main-container .body-container .ads-container .quangcao img#qc2 {
+                    width: 100%;
+                    margin-bottom: 4px;
+                }
+                body .main-container .body-container .ads-container .quangcao img#qc3 {
+                    width: 100%;
+                }
+
+
+
+
